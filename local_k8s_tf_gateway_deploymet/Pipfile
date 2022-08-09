@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+grpcio = "==1.42.0"
+tensorflow-serving-api = "==2.7.0"
+pillow = "*"
+tensorflow = "==2.9.1"
+keras-image-helper = "*"
+
+[requires]
+python_version = "3.9"

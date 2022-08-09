@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Visual Studio Code
+*.code-workspace
+*.bak
+**/data
+**/*.exe
+**/.ipynb_checkpoints
